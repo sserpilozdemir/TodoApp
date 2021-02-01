@@ -1,16 +1,16 @@
-const form           = document.querySelector("#todo-form");
+const form            = document.querySelector("#todo-form");
  
-const todoInput      = document.querySelector("#todo");
+const todoInput       = document.querySelector("#todo");
 
-const todoList       = document.querySelector(".list-group");
+const todoList        = document.querySelector(".list-group");
 
-const firstCardBody  =  document.querySelectorAll(".card-body")[0];
+const firstCardBody   =  document.querySelectorAll(".card-body")[0];
 
-var secondCardBody   = document.querySelectorAll(".card-body")[1];
+const secondCardBody  = document.querySelectorAll(".card-body")[1];
 
-var filter           = document.querySelector("#filter");
+var filter            = document.querySelector("#filter");
 
-const clearButton    = document.querySelector("#clear-todos");
+const clearButton     = document.querySelector("#clear-todos");
 
 //submit event 
 
